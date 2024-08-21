@@ -9,4 +9,4 @@ def index(request):
 """
 
 def index(request):
-    return render(request, 'index.html')
+    return render(request, 'galeria/index.html')
