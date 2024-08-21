@@ -3,5 +3,10 @@ from django.http import HttpResponse #Responsável pelas respostas de requisiç�
 
 # Create your views here.
 
+""" PARA RENDERIZAR HTML DIRETO DO HTTPRESPONDE
 def index(request):
     return HttpResponse('<h1>Alura Space</h1><p>Bem vindo ao espaço</p>')
+"""
+
+def index(request):
+    return render(request, 'index.html')
