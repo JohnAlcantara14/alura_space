@@ -121,7 +121,7 @@ USE_TZ = True
 
 STATIC_URL = 'static/'
 
-#Indica onde esão todos os arquivos estáticos
+#Indica onde estão todos os arquivos estáticos
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR, 'setup/static')
     
